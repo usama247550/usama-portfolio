@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import {
   BriefcaseBusiness,
   Code2,
@@ -64,16 +65,6 @@ const strengths = [
     accent: "orange",
   },
 ];
-
-function TechTile({ children, className = "" }) {
-  return (
-    <div
-      className={`flex h-20 w-20 items-center justify-center rounded-xl border border-[#1a1a22]/80 bg-slate-900/90 shadow-[0_12px_25px_rgba(0,0,0,0.25)] ${className}`}
-    >
-      {children}
-    </div>
-  );
-}
 
 export default function About() {
   const sectionRef = useRef(null);
@@ -144,29 +135,17 @@ export default function About() {
             </div>
           </div>
 
-          <div className="hero-reveal relative mx-auto h-[330px] w-full max-w-[470px] [animation-delay:180ms]">
-            <div className="absolute right-4 top-0 grid grid-cols-2 gap-4 sm:right-8">
-              <TechTile className="border-purple-500/60 text-cyan-400">
-                <span className="text-5xl font-bold">⚛</span>
-              </TechTile>
-              <TechTile className="border-[#1a1a22] text-green-400">
-                <span className="text-2xl font-bold">node</span>
-                <span className="text-lg">●</span>
-              </TechTile>
-              <TechTile className="border-amber-500/50 bg-amber-950/20 text-4xl font-bold text-amber-400">
-                JS
-              </TechTile>
-              <TechTile className="border-cyan-400/50 text-4xl">🍃</TechTile>
+          <div className="hero-reveal relative mx-auto w-full max-w-[470px] [animation-delay:180ms]">
+            <div className="relative aspect-square overflow-hidden rounded-2xl border border-cyan-400/30 bg-slate-900/90 shadow-[0_20px_40px_rgba(0,212,255,0.15)] hover:shadow-[0_25px_50px_rgba(0,212,255,0.25)] transition-all duration-300">
+              <Image
+                src="/projects/usama-about.jpeg"
+                alt="Usama Javed"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 470px"
+              />
             </div>
-
-            <div className="absolute bottom-8 left-1/2 h-5 w-64 -translate-x-1/2 rounded-[50%] bg-cyan-500/10 shadow-[0_0_25px_rgba(0,212,255,0.25)]" />
-            <div className="absolute bottom-10 left-1/2 h-20 w-44 -translate-x-1/2 skew-x-[-10deg] rounded-lg border border-slate-400/70 bg-gradient-to-br from-slate-500 via-slate-800 to-slate-950 shadow-[0_20px_25px_rgba(0,0,0,0.45)]">
-              <div className="flex h-full items-center justify-center text-3xl text-white">
-                ●
-              </div>
-            </div>
-            <div className="absolute bottom-3 left-1/2 h-3 w-60 -translate-x-1/2 skew-x-[-18deg] rounded-b-xl border border-[#1a1a22] bg-slate-700 shadow-lg" />
-            <div className="absolute bottom-0 left-1/2 h-9 w-12 -translate-x-1/2 rounded-full bg-gradient-to-t from-green-900 to-green-400/60 opacity-80" />
           </div>
         </div>
 
