@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "GoldSilver.de",
+    "description": "Multilingual gold and silver news platform with automated news updates, market price tracking, and category-based content. Responsive UI, REST APIs, dynamic data management.",
+    "tags": ["Next.js", "React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "i18next", "REST APIs"],
+    "liveLink": "https://www.goldsilver.de/",
+    "image": "/projects/goldsilver.webp.png"
+  },
+  {
+    "id": 2,
+    "title": "Caravan Store",
+    "description": "Responsive frontend for a motorhome purchase platform. Landing page with vehicle valuation, purchase info, three-step selling process, English and German support.",
+    "tags": ["Next.js", "React.js", "Tailwind CSS", "JavaScript", "i18next"],
+    "liveLink": "https://www.caravan-store.de/",
+    "image": "/projects/caravan-store.webp.png"
+  },
+  {
+    "id": 3,
+    "title": "Email Marketing Automation Platform",
+    "description": "Frontend of an email marketing platform with a dashboard to manage leads, organize contacts, and automate email campaigns via backend API integration.",
+    "tags": ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "REST APIs"],
+    "liveLink": "https://email-marketing-frontend-kappa.vercel.app/",
+    "image": "/projects/email-marketing.webp.png"
+  },
+  {
+    "id": 4,
+    "title": "ARSWIFT - Automated Hiring & Recruitment System",
+    "description": "Automated recruitment platform covering the full hiring process, from candidate applications to interview scheduling, with automated email notifications.",
+    "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JavaScript", "REST APIs", "Email Automation"],
+    "liveLink": "https://arswift-hiring-frontend.vercel.app/",
+    "image": "/projects/arswift-hiring.webp.png"
+  },
+  {
+    "id": 5,
+    "title": "MERN Ecommerce",
+    "description": "Full-stack ecommerce app with product browsing, user authentication, shopping cart, and responsive UI, integrated with REST APIs and MongoDB.",
+    "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "JavaScript", "REST APIs"],
+    "liveLink": "https://mern-ecommerce-frontend-virid-five.vercel.app/",
+    "image": "/projects/mern-ecommerce.webp.png"
+  },
+  {
+    "id": 6,
+    "title": "Auth Vault - Centralized Authentication & SSO",
+    "description": "Centralized SSO solution letting users access multiple apps with one secure login. RS256-signed JWT, persistent sessions, dynamic origin validation.",
+    "tags": ["Node.js", "JavaScript", "Supabase", "JWT (RS256)", "Netlify Functions", "REST APIs"],
+    "liveLink": "https://auth-vault-lhjf.vercel.app/",
+    "image": "/projects/auth-vault.webp.png"
+  }
+]
