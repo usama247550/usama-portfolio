@@ -16,7 +16,7 @@ export default function SocialLinks({ className = "" }) {
     },
     {
       name: "LinkedIn",
-      url: "#", // TODO: Add LinkedIn profile URL
+      url: "https://www.linkedin.com/in/usama-javed-112186320", // TODO: Add LinkedIn profile URL
       ariaLabel: "Usama Javed LinkedIn Profile",
       icon: (
         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
