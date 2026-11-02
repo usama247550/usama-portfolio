@@ -142,9 +142,12 @@ export default function About() {
                 alt="Usama Javed"
                 fill
                 className="object-cover"
+                style={{ objectPosition: "top" }}
                 priority
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 470px"
               />
+              {/* Dark gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-2xl" />
             </div>
           </div>
         </div>
